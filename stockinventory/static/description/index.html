@@ -5,53 +5,57 @@
     <title>Stock Aging Report</title>
     <style>
        
-        
+        .screenshot {
+            margin-top: 20px;
+        }
         .screenshot img {
             max-width: 100%;
             border: 1px solid #ccc;
             border-radius: 8px;
             margin-bottom: 20px;
         }
-       
+        ul {
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
-    <h1>Stock Aging Report for Odoo 18</h1>
+    <h2>Stock Aging Report for Odoo 18</h2>
     <p>
-        This module provides a  <strong>Stock Aging Report</strong> 
-        It allows users to export a Excel sheet with detailed information on quantity and value per aging period.
+        This module provides a<strong>Stock Aging Report</strong> 
+        It allows users to export a well-formatted Excel file with detailed information on quantity and value per aging period.
     </p>
 
-    <h3>Key Features:</h3>
+    <h2>Key Features:</h2>
     <ul>
-        <li>Export Excel report with inventory aging buckets</li>
+        <li>Export Excel report with inventory aging bucket</li>
         <li>Filter by Product or Product Category</li>
-        <li>Select  Warehouses and Internal Locations</li>
-        <li>Select Company and Date filters</li>
+        <li>Select multiple Warehouses and Internal Locations</li>
+        <li>Include Company and Date filters</li>
         <li>Automatic calculation of Quantity and Value per aging range</li>
         <li>Clean and readable Excel formatting</li>
     </ul>
 
-    <h3>How to Use:</h3>
+    <h2>How to Use:</h2>
     <ol>
         <li>Go to <strong>Inventory &gt; Reporting &gt; Stock Aging Report</strong></li>
-        <li>Fill in the filters: Date, Warehouses, Products , etc.</li>
-        <li>Click on<strong>Print Excel</strong> to download the excel report</li>
+        <li>Fill in the filters: Date, Warehouses, Products or Categories, etc.</li>
+        <li>Click <strong>Print Excel</strong> to download the report</li>
     </ol>
 
-    <div class="screenshot img">
-        <h4>Wizard Form View</h4>
-        <img src="reportwizard.png">
-    
-        <h4>Generated Excel Report</h4>
-        <img src="excelsheet.png">
+    <div class="screenshot">
+        <h2>Wizard Form View</h2>
+        <img src="reportwizard.png" alt="Wizard Form Screenshot">
     </div>
-    
+
+    <div class="screenshot">
+        <h2>Generated Excel Report</h2>
+        <img src="excelsheet.png" alt="Excel Report Screenshot">
+    </div>
 
     <p><strong>Author:</strong> Swati Khandelwal</p>
 </body>
 </html>
-
 
 
 
