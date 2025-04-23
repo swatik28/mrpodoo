@@ -10,7 +10,7 @@
        'security/ir.model.access.csv', 
        'wizard/stock_wizard.xml',
     ],
-    'images' : 'static/description/banner.png',
+    'images' : ['static/description/banner.png'],
     'installable': True,
     'auto_install': False,
     'license': 'LGPL-3',
